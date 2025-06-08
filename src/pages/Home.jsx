@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Github, Linkedin, Mail, Download, Code, BookOpen, Briefcase } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Photo from "../assets/Photo.jpg";
 
 const Home = () => {
   return (
@@ -10,9 +11,9 @@ const Home = () => {
         <div className="mb-12 animate-fade-in">
           <div className="mb-8">
             <img
-              src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
+              src={Photo}
               alt="Profile"
-              className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-blue-400 shadow-2xl hover:scale-105 transition-transform duration-300"
+              className="w-58 h-58 rounded-full mx-auto mb-6 border-4 border-blue-400 shadow-2xl hover:scale-105 transition-transform duration-300"
             />
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">
               Sahil <span className="text-blue-400">Motiramani</span>

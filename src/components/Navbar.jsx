@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-2 group">
             <Code2 className="w-8 h-8 text-blue-400 group-hover:text-blue-300 transition-colors" />
             <span className="text-xl font-bold text-white group-hover:text-blue-300 transition-colors">
-              DevPortfolio
+              Sahil Motiramani
             </span>
           </Link>
 
