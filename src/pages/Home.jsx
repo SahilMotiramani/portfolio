@@ -37,10 +37,16 @@ const Home = () => {
               View My Projects
               <ArrowRight className="ml-2 w-5 h-5" />
             </Link>
-            <button className="inline-flex items-center px-8 py-3 border border-slate-600 text-base font-medium rounded-lg text-slate-300 hover:text-white hover:bg-slate-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-              Download Resume
-              <Download className="ml-2 w-5 h-5" />
-            </button>
+           <a
+  href="https://drive.google.com/file/d/1WJenjcXaWLvyuO-73MTfDI1w5ia0-syM/view?usp=drivesdk"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="inline-flex items-center px-8 py-3 border border-slate-600 text-base font-medium rounded-lg text-slate-300 hover:text-white hover:bg-slate-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+    Download Resume
+    <Download className="ml-2 w-5 h-5" />
+  </button>
+</a>
           </div>
 
           {/* Social Links */}
